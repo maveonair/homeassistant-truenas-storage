@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Verbinden zu TrueNAS",
+        "description": "Geben Sie den Hostname, Port und den API-Schlüssel für die Verbindung ein.",
+        "data": {
+          "host": "Hostname",
+          "port": "Port",
+          "api_key": "API Key",
+          "verify_ssl": "SSL verifizieren"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zu TrueNAS nicht möglich. Überprüfen Sie Hostname, Port und API-Schlüssel."
+    }
+  }
+}
