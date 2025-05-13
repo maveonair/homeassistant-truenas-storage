@@ -19,4 +19,5 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto" # See https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/issues/158
+asyncio_default_fixture_loop_scope = "function" # see https://github.com/pytest-dev/pytest-asyncio/issues/924
 
